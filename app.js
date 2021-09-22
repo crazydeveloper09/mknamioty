@@ -24,4 +24,4 @@ app.get("/contact", (req, res) => {
     res.render("contact", {contact:""})
 })
 
-app.listen(3000)
+app.listen(process.env.PORT)
